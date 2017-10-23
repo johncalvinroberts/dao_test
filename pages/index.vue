@@ -1,20 +1,12 @@
 <template>
   <section class="container">
     <div>
-      <logo/>
       <h1 class="title">
         dao_test
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        <nuxt-link to="/about"><el-button type="primary">to about!!</el-button></nuxt-link>
       </h2>
-      <div class="links">
-        <a href="https://hey.shop"><el-button type="primary">HeyShop官网</el-button></a>
-        <a href="https://docs.heidianer.com"><el-button type="success">HeyShop文档</el-button></a>
-        <a href="https://cn.vuejs.org"><el-button :plain="true" type="info">Vue官网</el-button></a>
-        <a href="https://nuxtjs.org"><el-button :plain="true" type="info">Nuxt官网</el-button></a>
-        <a href="http://element.eleme.io/"><el-button :plain="true" type="info">Element UI官网</el-button></a>
-      </div>
     </div>
   </section>
 </template>
